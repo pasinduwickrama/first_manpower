@@ -1,0 +1,16 @@
+.home{
+    display: flex;
+ 
+}
+.home-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.home-r{
+ flex: 1;
+}
+.home-l{
+    flex: 4;
+}

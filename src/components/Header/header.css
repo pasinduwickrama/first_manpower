@@ -1,0 +1,28 @@
+.header{
+   
+}
+
+.header-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: rgb(255, 255, 255);
+}
+.header-l{
+    margin: 15px;
+    margin-left: 30px;
+}
+.header-l input{
+   border: 0ch;
+   background-color: transparent;
+   padding: 0px 20px;
+}
+.header-r{
+    margin: 15px;
+    display: flex;
+}
+
+.header-r img{
+    margin-right: 10px;
+}
