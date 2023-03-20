@@ -1,7 +1,9 @@
 import React from 'react'
 import './sider.css'
 import logo1 from '../../asses/FIM LOGO FINAL 1.jpg'
+import { useNavigate } from 'react-router-dom'
 const Siderbar = () => {
+  const navigate = useNavigate();
   return (
     <div className='sider-body'>
         <div className='side-logo'>
@@ -9,8 +11,8 @@ const Siderbar = () => {
         </div>
         <div className='side-bu'>
             <button>DASHBOARD</button>
-            <button>VACANCY</button>
-            <button>REPORTS</button>
+            <button onClick={()=> navigate('/va')}>VACANCY</button>
+            <button onClick={()=> navigate('/job')}>JOB</button>
         </div>
     </div>
   )
