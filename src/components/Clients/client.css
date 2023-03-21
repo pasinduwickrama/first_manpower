@@ -1,15 +1,18 @@
 .cl-bodyy{
-    display: flex;
-    justify-content: space-between;
+ 
+    display: grid;
+  
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
 }
 .cl-body{
     margin: 20px;
+   
 }
 .cl-body h2{
     margin-left: 20px;
 }
 .cl-name{
-   display: flex; 
    margin-left: 20px;
 }
 .cl-tex{
@@ -37,7 +40,7 @@
   border-radius: 30px;
   background: #E2FBD7;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
- width: 407px;
+ width: 47px;
  height: 8px;
   }
   
@@ -86,8 +89,8 @@
   }
   .containerr{
     height: 10px;
-    width: 100%;
-    background: #E2FBD7;
+    width: 10%;
+    background: #000000;
     border-radius: 6px;
     margin-top: 5px;
      
@@ -249,3 +252,63 @@
          opacity: 1;
      }
    }
+
+
+   /* for 24 inch */
+@media screen and (max-width : 1920px) {
+    
+}
+
+/* for 22 inch */
+@media screen and (max-width : 1680px) {
+  .cl-name{
+   width: 10%;
+}
+    /* for 20 inch */
+    @media screen and (min-height : 1200px) {
+
+    }
+}
+
+/* for 15 inch */
+@media screen and (max-width : 1366px) {
+    
+}
+
+/* for 13 inch */
+@media screen and (max-width : 1280px) {
+
+    /* for 19 inch */
+    @media screen and (min-height: 1024px) {
+
+    }
+}
+@media  screen and (max-width:1250px) {
+  .cl-bodyy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cl-name{
+  display: flex; 
+  margin-top: 25px;
+  margin-left: 0px;
+}
+}
+
+/* for 17 inch */
+@media screen and (max-width : 970px) {
+
+}
+
+/* for all tab inch */
+@media  screen and (max-width:884px) {
+
+}
+
+/* for all mobile inch */
+@media  screen and (max-width:750px) {
+    
+}

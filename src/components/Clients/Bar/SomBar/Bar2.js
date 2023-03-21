@@ -56,3 +56,5 @@ const Bar2 = () => {
 }
 
 export default Bar2
+
+

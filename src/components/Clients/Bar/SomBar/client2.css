@@ -39,6 +39,7 @@
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
  width: 407px;
  height: 8px;
+ 
   }
   
   .progress-bar2 {
@@ -85,6 +86,7 @@
     background: #E2FBD7;
     border-radius: 6px;
     margin-top: 5px;
+   
      
    }
   
@@ -215,3 +217,88 @@
          opacity: 1;
      }
    }
+
+   /* for 24 inch */
+@media screen and (max-width : 1920px) {
+    
+}
+
+/* for 22 inch */
+@media screen and (max-width : 1680px) {
+  .progress2 {
+   width: 307px;
+    }
+
+    .bat-tes{
+        width: 307px;
+      }
+    /* for 20 inch */
+    @media screen and (min-height : 1200px) {
+
+    }
+}
+
+/* for 15 inch */
+@media screen and (max-width : 1366px) {
+  .progress2 {
+    width: 287px;
+     }
+ 
+     .bat-tes{
+      width: 287px;
+       }
+}
+
+/* for 13 inch */
+@media screen and (max-width : 1280px) {
+  .progress2 {
+    width: 227px;
+     }
+ 
+     .bat-tes{
+      width: 227px;
+       }
+    /* for 19 inch */
+    @media screen and (min-height: 1024px) {
+
+    }
+}
+@media  screen and (max-width:1250px) {
+  .progress2 {
+    width: 407px;
+     }
+ 
+     .bat-tes{
+      width: 407px;
+       }
+}
+/* for 17 inch */
+@media screen and (max-width : 970px) {
+
+}
+
+/* for all tab inch */
+@media  screen and (max-width:884px) {
+
+}
+
+/* for all mobile inch */
+@media  screen and (max-width:750px) {
+  .progress2 {
+    width: 367px;
+     }
+ 
+     .bat-tes{
+      width: 367px;
+       }
+}
+
+@media  screen and (max-width:320px) {
+  .progress2 {
+    width: 280px;
+     }
+ 
+     .bat-tes{
+      width: 280px;
+       }
+}

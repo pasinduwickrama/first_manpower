@@ -10,7 +10,7 @@ const Siderbar = () => {
             <img src={logo1} alt='' />
         </div>
         <div className='side-bu'>
-            <button>DASHBOARD</button>
+            <button onClick={()=> navigate('/')}>DASHBOARD</button>
             <button onClick={()=> navigate('/va')}>VACANCY</button>
             <button onClick={()=> navigate('/job')}>JOB</button>
         </div>

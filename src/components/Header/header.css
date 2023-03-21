@@ -1,17 +1,21 @@
-.header{
-   
+.h-body{
+  display: none;
+}
+.ff{
+    display: none;
 }
 
 .header-body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
     background-color: rgb(255, 255, 255);
+   width: 100%;
 }
 .header-l{
     margin: 15px;
     margin-left: 30px;
+    display: flex;
 }
 .header-l input{
    border: 0ch;
@@ -25,4 +29,121 @@
 
 .header-r img{
     margin-right: 10px;
+}
+
+
+
+/* for 24 inch */
+@media screen and (max-width : 1920px) {
+    
+}
+
+/* for 22 inch */
+@media screen and (max-width : 1680px) {
+    
+    /* for 20 inch */
+    @media screen and (min-height : 1200px) {
+
+    }
+}
+
+/* for 15 inch */
+@media screen and (max-width : 1366px) {
+    
+}
+
+/* for 13 inch */
+@media screen and (max-width : 1280px) {
+
+    /* for 19 inch */
+    @media screen and (min-height: 1024px) {
+
+    }
+}
+
+/* for 17 inch */
+@media screen and (max-width : 1250px) {
+    .h-body{
+        background-color: #bd2929;
+        border-radius: 0px 40px 40px 10px;
+        position: absolute;
+        
+        width: 435px;
+        height: 290px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        transition: all 400ms ease-in;
+    }
+    .h-logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        padding: 0px 20px;
+        margin-bottom: 20px;
+       
+        
+    }
+   
+    
+    .h-bu{
+     
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+    }
+    
+    .h-bu button{
+      padding: 10px 20px;
+      width: 309px;
+      height: 55px;
+      border-radius: 10px;
+      border-color: black;
+      background-color: transparent;
+      margin-top: 5px;
+      font-family: 'DM Sans';
+      font-size: 24px;
+      font-weight: 700;
+      color: #272525;
+      
+    }
+    .f{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        
+    }
+    .ff{
+        display: flex;
+        margin-left: 10px;
+    }
+    .h-bu button:hover{
+        
+        border: 0px;
+        background-color: #32C2F0;
+        color: white;
+        
+      }
+}
+
+/* for all tab inch */
+@media  screen and (max-width:884px) {
+    .header-l input{
+       
+        padding: 0px 10px;
+     }
+     .header-r{
+       display: none;
+    }
+}
+
+/* for all mobile inch */
+@media  screen and (max-width:750px) {
+    
 }
