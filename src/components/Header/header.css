@@ -64,7 +64,7 @@
 /* for 17 inch */
 @media screen and (max-width : 1250px) {
     .h-body{
-        background-color: #bd2929;
+        background-color: #0066ff;
         border-radius: 0px 40px 40px 10px;
         position: absolute;
         
