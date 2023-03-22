@@ -285,20 +285,20 @@
 /* for all mobile inch */
 @media  screen and (max-width:750px) {
   .progress2 {
-    width: 367px;
+    width: 347px;
      }
  
      .bat-tes{
-      width: 367px;
+      width: 347px;
        }
 }
 
 @media  screen and (max-width:320px) {
   .progress2 {
-    width: 280px;
+    width: 250px;
      }
  
      .bat-tes{
-      width: 280px;
+      width: 250px;
        }
 }

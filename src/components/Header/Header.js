@@ -15,10 +15,11 @@ const Header = () => {
   return (
     <div className='header'>
         <div className='header-body'>
-            <div className='h-body' style={{left:`${open ? "-20px" : "-550px"}`,}}>
+            <div className='h-body' style={{left:`${open ? "-20px" : "-1250px"}`,}}>
             <div className='f' ><AiOutlineCloseCircle size={50} onClick={()=>{setOpen(false);}}  /></div>
                 
                 <div className='h-bu'>
+                <img src={logo5} alt='' />
                     <button onClick={()=> navigate('/')}>DASHBOARD</button>
                     <button onClick={()=> navigate('/va')}>VACANCY</button>
                     <button onClick={()=> navigate('/job')}>JOB</button>

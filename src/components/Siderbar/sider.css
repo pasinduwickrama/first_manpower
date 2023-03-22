@@ -82,8 +82,19 @@
 }
 
 /* for 15 inch */
-@media screen and (max-width : 1366px) {
-    
+@media screen and (max-width : 1466px) {
+  .sider-body{
+ 
+    width: 270px;
+    height: 1920px;
+}
+}
+@media screen and (max-width : 1336px) {
+  .sider-body{
+ 
+    width: 245px;
+    height: 1920px;
+}
 }
 
 /* for 13 inch */
