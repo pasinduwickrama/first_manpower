@@ -1,8 +1,13 @@
-import React from 'react'
+
 import Header from '../../Header/Header'
 import Siderbar from '../../Siderbar/Siderbar'
+import React, { useState } from 'react'
 
 export default function CvAcount() {
+  const [name,setName] = useState("");
+
+  const [myData, setMydata] = useState ([]);
+
   return (
     <div className='home'>
     <div className='home-side'>
@@ -48,9 +53,30 @@ export default function CvAcount() {
               <h2>Requirements </h2>           
             </div>
             <hr className='br' />
-            <div className='ac-card' >
-              <input type="image" alt=''  />
+            <div  >
+              <input className='re'  type="text"
+             value={name} 
+            onChange={(e)=>{
+            e.preventDefault()
+            setName(e.target.value
+            )}}   />
+
+<button className='btn' onClick={()=> {
+                setMydata((pre) => [ ...pre, {
+                  name, 
+                },]);
+
+             setName((pre) => (pre.length > 0 ? "" : pre));
+
+              }}
+              >+</button>
+              
             </div>
+            <div>{myData.map((myData)=> (
+              <div key={myData.id} className='ac-card'> 
+              <h5>{myData.name}</h5>
+              </div>
+            ))} </div>
             
             <div className='ac-herder'>
               <h2>Country </h2>           
@@ -67,7 +93,7 @@ export default function CvAcount() {
             </div>
             <hr className='br' />
             <div className='ac-card' >
-              <input type="image" alt=''  />
+              <input type="text" alt=''  />
             </div>
 
             <div className='cvac-bu'>
