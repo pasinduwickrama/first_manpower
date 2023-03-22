@@ -263,9 +263,8 @@
 @media  screen and (max-width:750px) {
     .cv-card{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        flex-direction:row;
+       
        width: 100%;
         margin-left: 0px;
     }
@@ -297,4 +296,31 @@
     padding: 10px 60px;
     
    }
+   .card-bu button{
+    padding: 10px 10px;
+  
+font-size:8px;
+   margin: 3px;
+  }
+  .card-tex{
+    margin-left: 20px
+}
+.card-tex h4{
+    font-size: 12px;
+}
+.card-tex h5{
+    font-size: 10px;
+  
+}
+
+.card-tex p{
+    font-size: 8px;
+   
+}
+.card-name img{
+    width: 50px;
+    height: 50px; 
+    margin-right: 0px; 
+    margin-top: 10px;
+ }
    }

@@ -13,7 +13,9 @@ const Header = () => {
  const  navigate=useNavigate();
  const [open,setOpen] = useState(false)
   return (
+
     <div className='header'>
+   
         <div className='header-body'>
             <div className='h-body' style={{left:`${open ? "-20px" : "-1250px"}`,}}>
             <div className='f' ><AiOutlineCloseCircle size={50} onClick={()=>{setOpen(false);}}  /></div>
@@ -27,7 +29,7 @@ const Header = () => {
             </div>
           <div className='header-l'>
             <BiMenuAltLeft size={50} onClick={() =>{setOpen(true)}} className='ff'  />
-            <BsSearch size={30}/>
+            
             <input placeholder='Search' />
           </div>
           <div className='header-r'>
